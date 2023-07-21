@@ -44,6 +44,18 @@
       </div>
 
     </form>
+       <h2>Page Description: </h2>
+
+            <p> The page converts a user's input sentence to title case. It involves importing a form-template, making modifications to elements, adding a script to handle user input, and implementing a titleCase() function to process the user's input.</p>
+
+      
+      <h3>Try it out:</h3>
+
+        <p>Enter a sentence in the input box below.
+          Click the "Submit" button.
+          The converted sentence will be displayed in the output box.
+        </p> 
+    
     <footer>
       <p><small>&copy; 2021-<span id="this-year"></span> by 
           YOUR NAME HERE, All Rights Reserved ~ 
@@ -62,7 +74,7 @@ function titleCase(str){
     const mySubmit = document.querySelector("#submit");
     console.log(mySubmit);
 
-    mySubmit,addEventListener("click", function(ev){
+    mySubmit.addEventListener("click", function(ev){
       ev.preventDefault();
       const myInput = document.querySelector("#input");
       const myOutput = document.querySelector("#output");
