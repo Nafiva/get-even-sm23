@@ -67,6 +67,12 @@ a {
     text-decoration: none;
 }
 
+.hd2, h2{
+    margin-left: 14px;
+    
+    
+}
+
 a:hover {
     color: whitesmoke;
     background-color: darkcyan;
